@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:PicEditApp.xcodeproj">
+      location = "self:/Users/machd/Desktop/PicEditApp/QR.xcodeproj">
    </FileRef>
 </Workspace>

@@ -13,10 +13,19 @@
 		B71B7DDB233B52770024629D /* PicEditApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B71B7DD9233B52770024629D /* PicEditApp.xcdatamodeld */; };
 		B71B7DDD233B52790024629D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B71B7DDC233B52790024629D /* Assets.xcassets */; };
 		B71B7DE0233B52790024629D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71B7DDE233B52790024629D /* LaunchScreen.storyboard */; };
+		B71B7E03233B811A0024629D /* QRCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71B7E02233B811A0024629D /* QRCodeViewController.swift */; };
+		B71B7E05233B8A050024629D /* QRCodeGeneratorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71B7E04233B8A050024629D /* QRCodeGeneratorViewController.swift */; };
+		B71B7E07233B9C670024629D /* ScanHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71B7E06233B9C670024629D /* ScanHomeViewController.swift */; };
+		B71B7E0C233BA5F50024629D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B71B7E0B233BA5F50024629D /* SWRevealViewController.m */; };
+		B71B7E0E233BA6B00024629D /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71B7E0D233BA6B00024629D /* SideMenu.swift */; };
+		B7F5BEC6233CA52D00F559B7 /* QRCodeDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F5BEC5233CA52D00F559B7 /* QRCodeDetailsViewController.swift */; };
+		B7F5BEC8233CB81800F559B7 /* HistoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F5BEC7233CB81800F559B7 /* HistoryCell.swift */; };
+		B7F5BECA233CB86000F559B7 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F5BEC9233CB86000F559B7 /* HistoryViewController.swift */; };
+		B7F5BECC233CEEAF00F559B7 /* CDService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F5BECB233CEEAF00F559B7 /* CDService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		B71B7DCF233B52770024629D /* PicEditApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicEditApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B71B7DCF233B52770024629D /* QR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71B7DD2233B52770024629D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B71B7DD4233B52770024629D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B71B7DD7233B52770024629D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +33,17 @@
 		B71B7DDC233B52790024629D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B71B7DDF233B52790024629D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B71B7DE1233B52790024629D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B71B7E02233B811A0024629D /* QRCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeViewController.swift; sourceTree = "<group>"; };
+		B71B7E04233B8A050024629D /* QRCodeGeneratorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeGeneratorViewController.swift; sourceTree = "<group>"; };
+		B71B7E06233B9C670024629D /* ScanHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanHomeViewController.swift; sourceTree = "<group>"; };
+		B71B7E09233BA5F40024629D /* PicEditApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PicEditApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		B71B7E0A233BA5F40024629D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		B71B7E0B233BA5F50024629D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		B71B7E0D233BA6B00024629D /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		B7F5BEC5233CA52D00F559B7 /* QRCodeDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeDetailsViewController.swift; sourceTree = "<group>"; };
+		B7F5BEC7233CB81800F559B7 /* HistoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryCell.swift; sourceTree = "<group>"; };
+		B7F5BEC9233CB86000F559B7 /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		B7F5BECB233CEEAF00F559B7 /* CDService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,7 +60,7 @@
 		B71B7DC6233B52770024629D = {
 			isa = PBXGroup;
 			children = (
-				B71B7DD1233B52770024629D /* PicEditApp */,
+				B71B7DD1233B52770024629D /* QR */,
 				B71B7DD0233B52770024629D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -48,31 +68,98 @@
 		B71B7DD0233B52770024629D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B71B7DCF233B52770024629D /* PicEditApp.app */,
+				B71B7DCF233B52770024629D /* QR.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B71B7DD1233B52770024629D /* PicEditApp */ = {
+		B71B7DD1233B52770024629D /* QR */ = {
 			isa = PBXGroup;
 			children = (
-				B71B7DD2233B52770024629D /* AppDelegate.swift */,
-				B71B7DD4233B52770024629D /* ViewController.swift */,
-				B71B7DD6233B52770024629D /* Main.storyboard */,
-				B71B7DDC233B52790024629D /* Assets.xcassets */,
-				B71B7DDE233B52790024629D /* LaunchScreen.storyboard */,
+				B7F5BED1233CFEE500F559B7 /* Resources */,
+				B7F5BED0233CFED600F559B7 /* View */,
+				B7F5BECF233CFEC800F559B7 /* Appdelegate */,
+				B7F5BECE233CFEB200F559B7 /* cell */,
+				B7F5BECD233CFE9200F559B7 /* Controller */,
+				B7F5BEC2233C9E7800F559B7 /* Service */,
+				B71B7E08233BA5E20024629D /* SWReveal */,
 				B71B7DE1233B52790024629D /* Info.plist */,
 				B71B7DD9233B52770024629D /* PicEditApp.xcdatamodeld */,
 			);
-			path = PicEditApp;
+			path = QR;
+			sourceTree = "<group>";
+		};
+		B71B7E08233BA5E20024629D /* SWReveal */ = {
+			isa = PBXGroup;
+			children = (
+				B71B7E0A233BA5F40024629D /* SWRevealViewController.h */,
+				B71B7E0B233BA5F50024629D /* SWRevealViewController.m */,
+				B71B7E09233BA5F40024629D /* PicEditApp-Bridging-Header.h */,
+			);
+			path = SWReveal;
+			sourceTree = "<group>";
+		};
+		B7F5BEC2233C9E7800F559B7 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				B7F5BECB233CEEAF00F559B7 /* CDService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		B7F5BECD233CFE9200F559B7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B71B7DD4233B52770024629D /* ViewController.swift */,
+				B71B7E0D233BA6B00024629D /* SideMenu.swift */,
+				B7F5BEC5233CA52D00F559B7 /* QRCodeDetailsViewController.swift */,
+				B71B7E06233B9C670024629D /* ScanHomeViewController.swift */,
+				B7F5BEC9233CB86000F559B7 /* HistoryViewController.swift */,
+				B71B7E04233B8A050024629D /* QRCodeGeneratorViewController.swift */,
+				B71B7E02233B811A0024629D /* QRCodeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B7F5BECE233CFEB200F559B7 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				B7F5BEC7233CB81800F559B7 /* HistoryCell.swift */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		B7F5BECF233CFEC800F559B7 /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B71B7DD2233B52770024629D /* AppDelegate.swift */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		B7F5BED0233CFED600F559B7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B71B7DD6233B52770024629D /* Main.storyboard */,
+				B71B7DDE233B52790024629D /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B7F5BED1233CFEE500F559B7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B71B7DDC233B52790024629D /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B71B7DCE233B52770024629D /* PicEditApp */ = {
+		B71B7DCE233B52770024629D /* QR */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B71B7DE4233B52790024629D /* Build configuration list for PBXNativeTarget "PicEditApp" */;
+			buildConfigurationList = B71B7DE4233B52790024629D /* Build configuration list for PBXNativeTarget "QR" */;
 			buildPhases = (
 				B71B7DCB233B52770024629D /* Sources */,
 				B71B7DCC233B52770024629D /* Frameworks */,
@@ -82,9 +169,9 @@
 			);
 			dependencies = (
 			);
-			name = PicEditApp;
+			name = QR;
 			productName = PicEditApp;
-			productReference = B71B7DCF233B52770024629D /* PicEditApp.app */;
+			productReference = B71B7DCF233B52770024629D /* QR.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,10 +186,11 @@
 				TargetAttributes = {
 					B71B7DCE233B52770024629D = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
-			buildConfigurationList = B71B7DCA233B52770024629D /* Build configuration list for PBXProject "PicEditApp" */;
+			buildConfigurationList = B71B7DCA233B52770024629D /* Build configuration list for PBXProject "QR" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +203,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B71B7DCE233B52770024629D /* PicEditApp */,
+				B71B7DCE233B52770024629D /* QR */,
 			);
 		};
 /* End PBXProject section */
@@ -138,8 +226,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7F5BEC6233CA52D00F559B7 /* QRCodeDetailsViewController.swift in Sources */,
+				B71B7E0C233BA5F50024629D /* SWRevealViewController.m in Sources */,
+				B7F5BECC233CEEAF00F559B7 /* CDService.swift in Sources */,
 				B71B7DD5233B52770024629D /* ViewController.swift in Sources */,
 				B71B7DDB233B52770024629D /* PicEditApp.xcdatamodeld in Sources */,
+				B7F5BEC8233CB81800F559B7 /* HistoryCell.swift in Sources */,
+				B7F5BECA233CB86000F559B7 /* HistoryViewController.swift in Sources */,
+				B71B7E0E233BA6B00024629D /* SideMenu.swift in Sources */,
+				B71B7E05233B8A050024629D /* QRCodeGeneratorViewController.swift in Sources */,
+				B71B7E03233B811A0024629D /* QRCodeViewController.swift in Sources */,
+				B71B7E07233B9C670024629D /* ScanHomeViewController.swift in Sources */,
 				B71B7DD3233B52770024629D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -286,6 +383,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3R7KB94X5D;
 				INFOPLIST_FILE = PicEditApp/Info.plist;
@@ -295,6 +393,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gg.PicEditApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PicEditApp/SWReveal/PicEditApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -304,6 +404,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3R7KB94X5D;
 				INFOPLIST_FILE = PicEditApp/Info.plist;
@@ -313,6 +414,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.gg.PicEditApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PicEditApp/SWReveal/PicEditApp-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -321,7 +423,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B71B7DCA233B52770024629D /* Build configuration list for PBXProject "PicEditApp" */ = {
+		B71B7DCA233B52770024629D /* Build configuration list for PBXProject "QR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B71B7DE2233B52790024629D /* Debug */,
@@ -330,7 +432,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B71B7DE4233B52790024629D /* Build configuration list for PBXNativeTarget "PicEditApp" */ = {
+		B71B7DE4233B52790024629D /* Build configuration list for PBXNativeTarget "QR" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B71B7DE5233B52790024629D /* Debug */,
